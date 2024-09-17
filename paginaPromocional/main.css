@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav > a {
+    color: white;
+    padding: 2em;
+    font-size: 1.7rem;
+}
+
+div.conteudo {
+    margin: 4% 0;
+    background-color: white;
+    height: 80vh;
+}
+
+#imagem {
+    float: right;
+    margin-right: 100px;
+    margin: 12vh 100px 12vh 0;
+    height: 500px;
+}
+
+h1 {
+    font-size: 2.6rem;
+    padding: 120px 220px 0;
+    width: 30%;
+}
+
+.primeiro {
+    color: darkturquoise;
+}
+
+button {
+    font-size: 1.3rem;
+    background-color: orange;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: orange;
+    color: white;
+}
+
+div.texto {
+    padding: 200px 220px;
+    width: 25%;
+}
