@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CABEÇALHO */
+
+header {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    padding: 10px;
+    background-color: black;
+    height: 15vh;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > a {
+    margin-left: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    margin: 0 40px;
+}
+
+.menu > li > a {
+    padding: 10px;
+}
+
+.logo {
+    height: 140px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > li > a:hover {
+    text-shadow: 0 0 5px white, 0 0 10px white;
+}
+
+/* CONTEUDO */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px, 1fr, 1fr;
+    max-width: 90vw;
+    margin: 50px auto;
+    gap: 10px;
+    place-items: center;
+}
+
+main > h1 {
+    grid-area: 1 / 1 / 1 / 4;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-decoration: underline;
+}
+ 
+main > a {
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    margin: 40px 0;
+}
+
+main > a:hover {
+    text-decoration: underline;
+}
+
+main > a > figure > figcaption {
+    margin: 8px 0;
+}
+
+main > a > figure > img {
+    height: 300px;
+    background-color: #D2D9DA;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 7px 7px 10px #B0BDBF;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 4vh;
+}
+
+footer > p {
+    font-size: 1.2rem;
+}
