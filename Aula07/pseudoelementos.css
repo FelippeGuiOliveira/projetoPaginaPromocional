@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p::before {
+    content: "🐶";
+}
+
+h3::after {
+    content: "🐱";
+}
+
+h2::first-letter {
+    font-size: 200%;
+    color: purple;
+}

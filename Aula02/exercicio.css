@@ -1,0 +1,35 @@
+*{
+    font-size: 25px;
+}
+ul{
+    font-size: 2rem;
+    /* 50px */
+}
+li{
+    font-size: 3em;
+    /* 150px */
+}
+p{
+    font-size: 15px;
+}
+h1{
+    font-size: 4.8rem;
+    /*   
+    25*4 = 100
+    25/10 = 2,5
+    2,5*8 = 20
+    100 + 20 = 120
+    */
+}
+body{
+    color:antiquewhite;
+    margin:25px;
+}
+div{
+    background-color: #071714;
+    border-radius: 30px;
+    padding: 0px 25px 10px;
+}
+ul{
+    list-style: none;
+}

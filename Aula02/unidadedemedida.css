@@ -1,0 +1,21 @@
+*{
+    font-size: 25px;
+    /* passou de 16px --> 25px */
+}
+ul{
+    list-style: none;
+    font-size: 35px;
+}
+li{
+    font-size: 2rem;
+    /* 32px com o valor do root base, 50px após a mudança do root para 25px */
+}
+li.em{
+    font-size: 2em;
+    /* 70px dobro do valor dado ao elemento superior a ele(ul) */
+}
+
+/* 
+    unidade - em (relacionado com o elemento superior a ele ul > li seguindo uma hierarquia como uma "árvore genealógica")
+    unidade - rem (relacionado com o root(valor fixo) desconsiderando o elemento superior a ele)
+*/

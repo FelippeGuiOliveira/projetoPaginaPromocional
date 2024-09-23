@@ -1,0 +1,16 @@
+p:hover{
+    font-family: fantasy;
+    font-size: 50px;
+    color: rgb(113, 87, 29);
+}
+p{
+    font-size: 50px;
+}
+button{
+    font-size: 35px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 20px;
+    border-style: hidden;
+}
+

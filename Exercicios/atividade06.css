@@ -1,0 +1,16 @@
+.primeiro {
+    float: left;
+    border: solid 1px red;
+}
+.segundo {
+    float: right;
+    border: solid 1px blue;
+}
+section {
+    border: solid 1px black;
+    text-align: center;
+}
+div {
+    margin: 10px;
+    width: 25vw;
+}

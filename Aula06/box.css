@@ -1,0 +1,22 @@
+div {
+    height: 250px;
+    width: 250px;
+    border: dotted 2px;
+    margin: 15px 40vw;
+}
+
+.box1 {
+    box-sizing: content-box;
+    border-color: cadetblue;
+    font-size: 2em;
+    padding: 30px;
+    border: dotted 10px cadetblue;
+}
+
+.box2 {
+    box-sizing: border-box;
+    border-color: purple;
+    font-size: 2em;
+    padding: 30px;
+    border: dotted 10px purple;
+}
